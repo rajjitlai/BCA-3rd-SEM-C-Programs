@@ -23,3 +23,5 @@ _________________________________________________________________________
 ## Swap two values without using a third variable > [Swap](/swapnoVar.c)
 
 ## Implement Bubble sort method > [Bubble Sort](/bubSort.c)
+
+## Implement Insertion sort method > [Insertion Sort](/insertionSort.c)
