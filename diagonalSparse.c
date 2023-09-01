@@ -3,8 +3,9 @@
 int main()
 {
     int n;
-    printf("Enter the size of the diagonal sparse matrix: ");
+    printf("Enter the size of the diagonal matrix: ");
     scanf("%d", &n);
+
     int matrix[n][n];
     for (int i = 0; i < n; i++)
     {
@@ -21,12 +22,20 @@ int main()
             }
         }
     }
-    printf("Diagonal Sparse Matrix:\n");
+
+    printf("Diagonal Matrix:\n");
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
         {
-            printf("%d ", matrix[i][j]);
+            if (matrix[i][j] != 0)
+            {
+                printf("%d ", matrix[i][j]);
+            }
+            else
+            {
+                printf("  ");
+            }
         }
         printf("\n");
     }
