@@ -14,6 +14,10 @@
 
 ## P4. Sparse Matrices (i) Lower [Lower Matrices](/sparseLower.c) (ii) Upper [Upper Matrices](/sparseUpper.c) Diagonal [Diagonal](/diagonalSparse.c)
 
+## P5. (i) Program to implement bubble sort (using flag) [Bubble Sort](/bubbleSort.c)
+
+## P5. (ii) Program to implement bubble sort using options for ascending or descending [Bubble Option](/bubbleOption.c)
+
 _________________________________________________________________________
 
 ### Class Codes
