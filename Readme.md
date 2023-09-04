@@ -29,3 +29,9 @@ _________________________________________________________________________
 ## Implement Bubble sort method > [Bubble Sort](/bubSort.c)
 
 ## Implement Insertion sort method > [Insertion Sort](/insertionSort.c)
+
+_________________________________________________________________________
+
+### TEST Codes
+
+## Program to insert the fibonacci series in the array and find for repetition or check if the number 11 is in the array or not [Check](/check.c)
