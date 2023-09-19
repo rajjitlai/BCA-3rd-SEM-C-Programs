@@ -18,6 +18,14 @@
 
 ## P5. (ii) Program to implement bubble sort using options for ascending or descending [Bubble Option](./practical-codes/bubbleOption.c)
 
+## P6. Program to implement insertion sort [Insertion Sort](./class-codes/insertionSort.c)
+
+## P7. Program to find the number of occurrence of an element X inside an array A[N] [Check Occurrence](./practical-codes/checkoccurance.c)
+
+## P8. Program to implement Diagonal Matrix in one-dimensional array [Diagonal Matrix in 1D](./practical-codes/onediDiaMat.c)
+
+## P9. Program to implement Lower Triangular Matrix in one-dimensional array [Lower Triangular Matrix in 1D](./practical-codes/onediLoTrMat.c)
+
 _________________________________________________________________________
 
 ### Class Codes
@@ -35,3 +43,9 @@ _________________________________________________________________________
 ### TEST Codes
 
 ## Program to insert the fibonacci series in the array and find for repetition or check if the number 11 is in the array or not [Check](./test-codes/check.c)
+
+## Program to [Check](./test-codes/check1.c)
+
+## Program to take 10 inputs and multiply by index and check for repetition [Check 2](./test-codes/check2.c)
+
+## Program to insert 10 elements in an array, if index  5 is even find factorial. If odd, just multiply by 11 [Check 3](./test-codes/check3.c)

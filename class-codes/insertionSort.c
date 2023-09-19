@@ -26,5 +26,5 @@ int main()
 }
 
 // Output
-// The sorted array is: 
-// 19 21 24 33 50 73 
+// The sorted array is:
+// 19 21 24 33 50 73
