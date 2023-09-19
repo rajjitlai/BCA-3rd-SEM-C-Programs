@@ -44,7 +44,7 @@ _________________________________________________________________________
 
 ## Program to insert the fibonacci series in the array and find for repetition or check if the number 11 is in the array or not [Check](./test-codes/check.c)
 
-## Program to [Check](./test-codes/check1.c)
+## Program to take a number and store the multiples of that as array and check if divisible by 7 [Check](./test-codes/check1.c)
 
 ## Program to take 10 inputs and multiply by index and check for repetition [Check 2](./test-codes/check2.c)
 
