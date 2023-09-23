@@ -38,6 +38,8 @@ _________________________________________________________________________
 
 ## Implement Insertion sort method > [Insertion Sort](./class-codes/insertionSort.c)
 
+## C program to sort an array of n integers into ascending order using the easiest method and it should  be written in a module and should be called when required only; also print the number of exchanges and comparison [Sort n Print](./class-codes/sortnprintstep.c)
+
 _________________________________________________________________________
 
 ### TEST Codes

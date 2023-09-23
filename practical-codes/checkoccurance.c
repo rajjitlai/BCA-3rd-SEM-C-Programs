@@ -1,4 +1,4 @@
-// Program to find the number of occurrence of an element X inside an array A[N]
+ // Program to find the number of occurrence of an element X inside an array A[N]
 #include <stdio.h>
 int main()
 {
