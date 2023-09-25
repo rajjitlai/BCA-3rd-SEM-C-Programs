@@ -1,6 +1,6 @@
 /* C program to sort an array of n integers into ascending order using the 
 easiest method and it should  be written in a module and should be 
-called when required only; also print the number of exchanges and comparison*/
+called when required only; also print the number of exchanges and comparison */
 #include <stdio.h>
 void bubbleSort(int arr[50], int n) {
     int ex = 0;
