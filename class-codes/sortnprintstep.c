@@ -2,7 +2,7 @@
 easiest method and it should  be written in a module and should be 
 called when required only; also print the number of exchanges and comparison */
 #include <stdio.h>
-void bubbleSort(int arr[50], int n) {
+void bubSort(int arr[50], int n) {
     int ex = 0;
     int com = 0;
     for (int i = 0; i < n - 1; i++) {
