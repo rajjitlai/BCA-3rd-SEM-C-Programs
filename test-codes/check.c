@@ -22,4 +22,5 @@ int main()
     {
         printf("\n11 is not present in the array ");
     }
+    return 0;
 }
