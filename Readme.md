@@ -26,6 +26,8 @@
 
 ## P9. Program to implement Lower Triangular Matrix in one-dimensional array [Lower Triangular Matrix in 1D](./practical-codes/onediLoTrMat.c)
 
+## P10. Program to create link list and insert element at the beginning [Link List insert](./practical-codes/link_list.c)
+
 _________________________________________________________________________
 
 ### Class Codes
@@ -39,6 +41,8 @@ _________________________________________________________________________
 ## Implement Insertion sort method > [Insertion Sort](./class-codes/insertionSort.c)
 
 ## C program to sort an array of n integers into ascending order using the easiest method and it should  be written in a module and should be called when required only; also print the number of exchanges and comparison [Sort n Print](./class-codes/sortnprintstep.c)
+
+## Creation of link lists and give options to choose insertion at the beginning or insertion at the end and print the result [Link List switch](./class-codes/link_list_switch.c)
 
 _________________________________________________________________________
 
