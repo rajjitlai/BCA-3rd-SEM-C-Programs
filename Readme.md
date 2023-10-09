@@ -1,9 +1,5 @@
 # ABOUT Data Structures using C programming PRACTICAL
 
-<p align="center">
-	<img src="/image/c-programs.jpg" width="auto" alt="info-image">
-</p>
-
 ## P1. Traversing an array [Traversing](./practical-codes/traverseArray.c)
 
 ## P2. (i) Insert a number in 2D array and traverse them [2D Traverse](./practical-codes/2DTraverse.c)
