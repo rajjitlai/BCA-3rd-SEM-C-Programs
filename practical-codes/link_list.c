@@ -9,10 +9,9 @@ struct node{
 
 void insertAtBeginning(struct node **head)
 {
-	int newData;
 	struct node *newNode = (struct node*)malloc(sizeof(struct node));
 	printf("Enter the value to be inserted: ");
-	scanf("%d", &newData);
+	scanf("%d", &newNode -> data);
 	newNode -> data = newData;
 	newNode -> next = *head;
 	*head = newNode;
