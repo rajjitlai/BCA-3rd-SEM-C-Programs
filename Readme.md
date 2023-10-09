@@ -1,7 +1,7 @@
 # ABOUT Data Structures using C programming PRACTICAL
 
 <p align="center">
-	<img src="./image/c-programs.jpg" width="auto" alt="info-image">
+	<img src="/image/c-programs.jpg" width="auto" alt="info-image">
 </p>
 
 ## P1. Traversing an array [Traversing](./practical-codes/traverseArray.c)
