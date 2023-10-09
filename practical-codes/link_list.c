@@ -12,7 +12,6 @@ void insertAtBeginning(struct node **head)
 	struct node *newNode = (struct node*)malloc(sizeof(struct node));
 	printf("Enter the value to be inserted: ");
 	scanf("%d", &newNode -> data);
-	newNode -> data = newData;
 	newNode -> next = *head;
 	*head = newNode;
 }
