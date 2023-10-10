@@ -48,6 +48,8 @@ _________________________________________________________________________
 
 ## Creation of link lists and give options to choose insertion at the beginning or insertion at the end and print the result [Link List switch](./class-codes/link_list_switch.c)
 
+## Program to create a link list and give options to insert data at the beginning, at any position or at the end - NORMAL [Link list insertions](./class-codes/link-list-with-3-ins.c)
+
 _________________________________________________________________________
 
 ### TEST Codes

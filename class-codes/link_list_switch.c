@@ -42,7 +42,7 @@ void printValue(struct node *head){
 int main(){
 	int op;
 	struct node *head = NULL;
-	printf("ENter the type of insertion you want: \n1. At the beginning or \n2. At the end: \n");
+	printf("Enter the type of insertion you want: \n1. At the beginning or \n2. At the end: \n");
 	scanf("%d", &op);
 	switch(op){
 		case 1:
@@ -59,6 +59,7 @@ int main(){
 			break;
 		default:
 			printf("You have entered an invalid option...");
+			break;
 	}
 	return 0;
 }
