@@ -50,6 +50,8 @@ _________________________________________________________________________
 
 ## Program to create a link list and give options to insert data at the beginning, at any position or at the end - NORMAL [Link list insertions](./class-codes/link-list-with-3-ins.c)
 
+## Program to create a link list and give options to insert data at the beginning, at any position or at the end. Accept the data in the main part of the program - HARD [Link list insertions with options](./class-codes/link-list-with-3-ins-hard.c)
+
 _________________________________________________________________________
 
 ### TEST Codes
