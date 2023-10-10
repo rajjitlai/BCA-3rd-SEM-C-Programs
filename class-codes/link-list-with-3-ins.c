@@ -90,3 +90,34 @@ int main() {
     }
     return 0;
 }
+
+// Output:
+// Enter the type of insertion you want:
+// 1. At the beginning
+// 2. At any position
+// 3. At the end
+// 1
+// Enter the value to be inserted: 23
+// The list is:
+// 23
+// Enter the type of insertion you want (or any other value to exit): 1
+// Enter the value to be inserted: 34
+// The list is:
+// 34
+// 23
+// Enter the type of insertion you want (or any other value to exit): 3
+// Enter the value to be inserted: 45
+// The list is:
+// 34
+// 23
+// 45
+// Enter the type of insertion you want (or any other value to exit): 2
+// Enter the value to be inserted: 32
+// Enter the position you want to insert: 3
+// The list is:
+// 34
+// 23
+// 32
+// 45
+// Enter the type of insertion you want (or any other value to exit): 4
+// You have entered an invalid option...
