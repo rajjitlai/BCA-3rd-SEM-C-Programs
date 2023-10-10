@@ -1,5 +1,9 @@
 # ABOUT Data Structures using C programming PRACTICAL
 
+<p align="center">
+  <img src="https://myfilesandimagessite.netlify.app/resources/images/c-program.png" width="auto">
+</p>
+
 ## P1. Traversing an array [Traversing](./practical-codes/traverseArray.c)
 
 ## P2. (i) Insert a number in 2D array and traverse them [2D Traverse](./practical-codes/2DTraverse.c)
