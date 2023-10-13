@@ -30,7 +30,11 @@
 
 ## P9. Program to implement Lower Triangular Matrix in one-dimensional array [Lower Triangular Matrix in 1D](./practical-codes/onediLoTrMat.c)
 
-## P10. Program to create link list and insert element at the beginning [Link List insert](./practical-codes/link_list.c)
+## P10. Program to create link list and insert element at the beginning, at the end, at any position [Link List insert](./class-codes/link-list-with-3-ins-hard.c)
+
+## P11. Program to create a link list and implement deletion at beginning, at end, at any position and deletion of a searched element [Link list deletion](./class-codes/deletion.c)
+
+## P12. Program to create a link list and implement searching [Searching]
 
 _________________________________________________________________________
 
@@ -54,7 +58,7 @@ _________________________________________________________________________
 
 ## Program to create a link list and display the elements in the list [Create and Display](./class-codes/inserndisplay.c)
 
-## Program for creation of link list and display the number of nodes created [Create and count Nodes]
+## Program for creation of link list and display the number of nodes created [Create and count Nodes](./class-codes/createnCountnode.c)
 
 _________________________________________________________________________
 
