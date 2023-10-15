@@ -34,7 +34,7 @@
 
 ## P11. Program to create a link list and implement deletion at beginning, at end, at any position and deletion of a searched element [Link list deletion](./class-codes/deletion.c)
 
-## P12. Program to create a link list and implement searching [Searching]
+## P12. Program to create a link list and implement searching [Searching](./practical-codes/link-list-item-search.c)
 
 _________________________________________________________________________
 
