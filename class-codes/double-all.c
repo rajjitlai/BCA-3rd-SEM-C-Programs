@@ -61,8 +61,7 @@ void insPos(struct node** head, int val, int pos) {
         }
 
         if (temp == NULL) {
-            printf("Position exceeds the length of the list. Inserting at the end.\n");
-            insEnd(head, val);
+            printf("Position exceeds the length of the list. Element cannot be inserted.\n");
         } else {
             newNode->next = temp->next;
             newNode->prev = temp;
