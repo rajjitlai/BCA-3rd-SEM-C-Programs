@@ -66,10 +66,14 @@ _________________________________________________________________________
 
 ### TEST Codes
 
-## Program to insert the fibonacci series in the array and find for repetition or check if the number 11 is in the array or not [Check](./test-codes/check.c)
+## TEST 1 - Program to insert the fibonacci series in the array and find for repetition or check if the number 11 is in the array or not [Check](./test-codes/1-check.c)
 
-## Program to take a number and store the multiples of that as array and check if divisible by 7 [Check](./test-codes/check1.c)
+## TEST 1 - Program to take a number and store the multiples of that as array and check if divisible by 7 [Check](./test-codes/1-check1.c)
 
-## Program to take 10 inputs and multiply by index and check for repetition [Check 2](./test-codes/check2.c)
+## TEST 1 - Program to take 10 inputs and multiply by index and check for repetition [Check 2](./test-codes/1-check2.c)
 
-## Program to insert 10 elements in an array, if index  5 is even find factorial. If odd, just multiply by 11 [Check 3](./test-codes/check3.c)
+## TEST 1 - Program to insert 10 elements in an array, if index  5 is even find factorial. If odd, just multiply by 11 [Check 3](./test-codes/1-check3.c)
+
+## TEST 2 - Program to create a link list with the details - struct student, int roll no, char grade and display the roll numbers which have grade B [Link List of Student](./test-codes/2-student-link-list.c)
+
+## TEST 2 - Program to create a link list and insert elements at the beginning and at any position [Link List Insertion](./test-codes/2-link-list-insertion.c)

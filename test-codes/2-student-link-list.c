@@ -1,4 +1,4 @@
-// Program to create a link list with the details - struct student, int roll no, char grade and dislay the roll numbers which have grade B
+// Program to create a link list with the details - struct student, int roll no, char grade and display the roll numbers which have grade B
 
 #include<stdio.h>
 #include<stdlib.h>
