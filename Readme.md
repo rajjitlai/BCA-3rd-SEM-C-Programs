@@ -62,6 +62,8 @@ _________________________________________________________________________
 
 ## Program for creation of double-link-list and insert at the beginning, at the end, at any position and delete at beginning [Double LL](./class-codes/double-all.c)
 
+## Program to print the double-link-list in the reversed order [Reverse Double](./class-codes/double-rev.c)
+
 _________________________________________________________________________
 
 ### TEST Codes
