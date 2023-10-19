@@ -64,6 +64,9 @@ void insPos(struct node **head) {
 		}
 	}
 }
+
+// deletions will be added later
+
 void printValue(struct node *head) {
     struct node *temp = head;
     if (head != NULL) {
