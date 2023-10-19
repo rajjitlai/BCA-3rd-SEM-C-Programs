@@ -36,13 +36,13 @@ int search(struct node *head, int val) {
     while (temp != NULL) {
         if (temp->data == val) {
             printf("Element %d found at position %d.\n", val, position);
-            return 1;  // Element found
+            return 1;
         }
         temp = temp->next;
         position++;
     }
     printf("Element %d not found in the list.\n", val);
-    return 0;  // Element not found
+    return 0;
 }
 
 void display(struct node *head) {
@@ -66,25 +66,14 @@ int main() {
         scanf("%d", &val);
         
         if (val == -1) {
-            break;  // Exit the loop when -1 is entered
+            break;
         }
         
         insertAtEnd(&head, val);
     }
-
     display(head);
-
     printf("Enter a value to search in the list: ");
     scanf("%d", &val);
-
     search(head, val);
-
-    // Free memory
-    while (head != NULL) {
-        struct node *temp = head;
-        head = head->next;
-        free(temp);
-    }
-
     return 0;
 }

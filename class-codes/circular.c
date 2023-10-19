@@ -13,7 +13,7 @@ void insBeg(struct node **head){
 	scanf("%d", &newNode -> data);
 	if(*head == NULL)
 	{
-		newNode -> next = *head;
+		newNode -> next = newNode;
 		*head = newNode;
 	} else{
 		temp = *head;
