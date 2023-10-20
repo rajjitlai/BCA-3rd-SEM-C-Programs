@@ -36,6 +36,10 @@
 
 ## P12. Program to create a link list and implement searching [Searching](./practical-codes/link-list-item-search.c)
 
+## P13. Program to concatenate linked lists [Concatenate](./practical-codes/concat.c)
+
+## P14. Program to reverse linked lists [Reverse](./practical-codes/)
+
 _________________________________________________________________________
 
 ### Class Codes
@@ -79,3 +83,7 @@ _________________________________________________________________________
 ## TEST 2 - Program to create a link list with the details - struct student, int roll no, char grade and display the roll numbers which have grade B [Link List of Student](./test-codes/2-student-link-list.c)
 
 ## TEST 2 - Program to create a link list and insert elements at the beginning and at any position [Link List Insertion](./test-codes/2-link-list-insertion.c)
+
+## Class Test 2 - 1 [class-test-2-01](./test-codes/class-test-2-1.c)
+
+## Class Test 2 - 2 [class-test-2-02](./test-codes/class-test-2-2.c)
