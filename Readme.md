@@ -68,6 +68,8 @@ _________________________________________________________________________
 
 ## Program to print the double-link-list in the reversed order [Reverse Double](./class-codes/double-rev.c)
 
+## Program to implement insertion, deletion and display in Queue [Queue Implement](./class-codes/queue-ins-del.c)
+
 _________________________________________________________________________
 
 ### TEST Codes
