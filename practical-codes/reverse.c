@@ -1,4 +1,4 @@
-// Program to reverse a linked list
+// Program to reverse a linked list - a single linked list
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -60,3 +60,15 @@ int main() {
 
 	return 0;
 }
+
+// Output:
+/*
+Enter the number of elements you want to insert: 5
+Enter the value for element 1: 34
+Enter the value for element 2: 56
+Enter the value for element 3: 89
+Enter the value for element 4: 22
+Enter the value for element 5: 10
+The elements in the list are: 34 | 56 | 89 | 22 | 10 |
+Reversed List: 10 | 22 | 89 | 56 | 34 |
+*/

@@ -38,7 +38,7 @@
 
 ## P13. Program to concatenate linked lists [Concatenate](./practical-codes/concat.c)
 
-## P14. Program to reverse linked lists [Reverse](./practical-codes/)
+## P14. Program to reverse linked lists [Reverse](./practical-codes/reverse.c)
 
 ## P15. Program to implement linear queue insertion, deletion, peek and display [Linear Queue](./class-codes/queue-ins-del.c)
 
