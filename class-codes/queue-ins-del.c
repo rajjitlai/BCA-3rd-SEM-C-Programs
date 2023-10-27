@@ -1,4 +1,4 @@
-// Program to implment insertion and deletion in Queue
+// Program to implement insertion and deletion in Queue
 #include<stdio.h>
 #include<stdlib.h>
 int enqueue(int arr[], int rear, int n) {
