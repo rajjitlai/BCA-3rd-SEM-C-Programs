@@ -42,7 +42,7 @@
 
 ## P15. Program to implement linear queue insertion, deletion, peek and display [Linear Queue](./class-codes/queue-ins-del.c)
 
-## P16. Program to implement linear queue insertion, deletion, searching and display [Circular Queue](./class-codes/queue-ins-del-circular.c)
+## P16. Program to implement circular queue insertion, deletion, searching and display [Circular Queue](./class-codes/queue-ins-del-circular.c)
 
 _________________________________________________________________________
 
