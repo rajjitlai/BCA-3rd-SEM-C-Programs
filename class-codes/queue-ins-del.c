@@ -1,6 +1,6 @@
-// Program to implement insertion and deletion in Queue
+// Program to implement insertion and deletion in linear Queue
 #include<stdio.h>
-#include<stdlib.h>
+
 int enqueue(int arr[], int rear, int n) {
 	if(rear == n - 1)
 		printf("Queue is full");
@@ -39,7 +39,7 @@ void peekq(int arr[], int front, int rear) {
 		printf("Queue empty");
 	else {
 		front++;
-		printf("The deleted item is %d", arr[front]);
+		printf("The first item is %d", arr[front]);
 	}
 }
 
