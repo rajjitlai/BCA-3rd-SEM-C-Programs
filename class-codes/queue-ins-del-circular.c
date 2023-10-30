@@ -1,4 +1,4 @@
-// Program to implment enqueue, dequeue, display and searching in circular queue
+// Program to implement enqueue, dequeue, display and searching in circular queue
 #include <stdio.h>
 
 int rear = -1;
