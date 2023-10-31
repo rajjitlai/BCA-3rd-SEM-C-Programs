@@ -1,6 +1,10 @@
 # ABOUT Data Structures using C programming PRACTICAL
 
 <p align="center">
+  <img src="https://visitor-badge.feriirawann.repl.co?username=rajjitlai&repo=BCA-3rd-SEM-C-Programs&style=for-the-badge&contentType=svg&color=green&label=Visitors" alt="Visitors">
+</p>
+
+<p align="center">
   <img src="https://myfilesandimagessite.netlify.app/resources/images/c-program.png" width="auto">
 </p>
 
