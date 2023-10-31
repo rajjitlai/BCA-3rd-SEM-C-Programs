@@ -1,108 +1,190 @@
-# ABOUT Data Structures using C programming PRACTICAL
+# Data Structures Using C Programming
+
+Welcome to the repository for Data Structures using C programming. Here, you will find practical, class, and test codes that will help you learn and practice data structures - by [Rajjit Laishram](https://mypersonalportfolio-rl.netlify.app/)
+
+---
+
+<div align="center">
+  <img src="https://myfilesandimagessite.netlify.app/resources/images/c-program.png" width="auto" alt="C Programming">
+</div>
+
+---
 
 <p align="center">
   <img src="https://visitor-badge.feriirawann.repl.co?username=rajjitlai&repo=BCA-3rd-SEM-C-Programs&style=for-the-badge&contentType=svg&color=green&label=Visitors" alt="Visitors">
 </p>
 
-<p align="center">
-  <img src="https://myfilesandimagessite.netlify.app/resources/images/c-program.png" width="auto">
-</p>
+## Practical Codes
 
-## P1. Traversing an array [Traversing](./practical-codes/traverseArray.c)
+- **P1. Traversing an Array**
 
-## P2. (i) Insert a number in 2D array and traverse them [2D Traverse](./practical-codes/2DTraverse.c)
+  - [Code](./practical-codes/traverseArray.c)
 
-## P2. (ii) Insert character in 2D array and traverse them [2D Character Traverse](./practical-codes/insert2DTraverse.c)
+- **P2. Insertion and Traversal in 2D Arrays**
 
-## P2. (iii) Insert floating number in 2D array and traverse them [2D Float Traverse](./practical-codes/insert2DFTraverse.c)
+  - (i) Inserting Numbers
+    - [Code](./practical-codes/2DTraverse.c)
+  - (ii) Inserting Characters
+    - [Code](./practical-codes/insert2DTraverse.c)
+  - (iii) Inserting Floating Numbers
+    - [Code](./practical-codes/insert2DFTraverse.c)
 
-## P3. (i) Linear search for an array [Linear Search](./practical-codes/linearSearch.c)
+- **P3. Linear Search in Arrays**
 
-## P3. (ii) Linear search from Backward and Forward [Linear Search Options](./practical-codes/linearSearchBackFor.c)
+  - (i) Standard Search
+    - [Code](./practical-codes/linearSearch.c)
+  - (ii) Backward and Forward Search
+    - [Code](./practical-codes/linearSearchBackFor.c)
 
-## P4. Sparse Matrices (i) Lower [Lower Matrices](./practical-codes/sparseLower.c) (ii) Upper [Upper Matrices](./practical-codes/sparseUpper.c) Diagonal [Diagonal](./practical-codes/diagonalSparse.c)
+- **P4. Sparse Matrices**
 
-## P5. (i) Program to implement bubble sort (using flag) [Bubble Sort](./practical-codes/bubbleSort.c)
+  - (i) Lower Matrices
+    - [Code](./practical-codes/sparseLower.c)
+  - (ii) Upper Matrices
+    - [Code](./practical-codes/sparseUpper.c)
+  - Diagonal
+    - [Code](./practical-codes/diagonalSparse.c)
 
-## P5. (ii) Program to implement bubble sort using options for ascending or descending [Bubble Option](./practical-codes/bubbleOption.c)
+- **P5. Bubble Sort**
 
-## P6. Program to implement insertion sort [Insertion Sort](./class-codes/insertionSort.c)
+  - (i) Using Flag
+    - [Code](./practical-codes/bubbleSort.c)
+  - (ii) Options for Ascending/Descending
+    - [Code](./practical-codes/bubbleOption.c)
 
-## P7. Program to find the number of occurrence of an element X inside an array A[N] [Check Occurrence](./practical-codes/checkoccurance.c)
+- **P6. Insertion Sort**
 
-## P8. Program to implement Diagonal Matrix in one-dimensional array [Diagonal Matrix in 1D](./practical-codes/onediDiaMat.c)
+  - [Code](./class-codes/insertionSort.c)
 
-## P9. Program to implement Lower Triangular Matrix in one-dimensional array [Lower Triangular Matrix in 1D](./practical-codes/onediLoTrMat.c)
+- **P7. Count Occurrence in Arrays**
 
-## P10. Program to create link list and insert element at the beginning, at the end, at any position [Link List insert](./class-codes/link-list-with-3-ins-hard.c)
+  - [Code](./practical-codes/checkoccurance.c)
 
-## P11. Program to create a link list and implement deletion at beginning, at end, at any position and deletion of a searched element [Link list deletion](./class-codes/deletion.c)
+- **P8. Diagonal Matrix in 1D**
 
-## P12. Program to create a link list and implement searching [Searching](./practical-codes/link-list-item-search.c)
+  - [Code](./practical-codes/onediDiaMat.c)
 
-## P13. Program to concatenate linked lists [Concatenate](./practical-codes/concat.c)
+- **P9. Lower Triangular Matrix in 1D**
 
-## P14. Program to reverse single linked lists [Reverse](./practical-codes/reverse.c) <br> Program to reverse double linked lists [Reverse 2](./class-codes/double-rev.c)
+  - [Code](./practical-codes/onediLoTrMat.c)
 
-## P15. Program to implement linear queue insertion, deletion, peek and display [Linear Queue](./class-codes/queue-ins-del.c)
+- **P10. Linked List Operations**
 
-## P16. Program to implement circular queue insertion, deletion, searching and display [Circular Queue](./class-codes/queue-ins-del-circular.c)
+  - Insert at Beginning, End, or Any Position
+    - [Code](./class-codes/link-list-with-3-ins-hard.c)
 
-_________________________________________________________________________
+- **P11. Linked List Deletion**
 
-### Class Codes
+  - Delete at Beginning, End, Any Position, and Search
+    - [Code](./class-codes/deletion.c)
 
-## Search a character in an array [Search Char](./class-codes/searchChar.c)
+- **P12. Linked List Searching**
 
-## Swap two values without using a third variable > [Swap](./class-codes/swapnoVar.c)
+  - [Code](./practical-codes/link-list-item-search.c)
 
-## Implement Bubble sort method > [Bubble Sort](./class-codes/bubSort.c)
+- **P13. Concatenate Linked Lists**
 
-## Implement Insertion sort method > [Insertion Sort](./class-codes/insertionSort.c)
+  - [Code](./practical-codes/concat.c)
 
-## C program to sort an array of n integers into ascending order using the easiest method and it should  be written in a module and should be called when required only; also print the number of exchanges and comparison [Sort n Print](./class-codes/sortnprintstep.c)
+- **P14. Reverse Linked Lists**
 
-## Creation of link lists and give options to choose insertion at the beginning or insertion at the end and print the result [Link List switch](./class-codes/link_list_switch.c)
+  - Single Linked Lists
+    - [Code](./practical-codes/reverse.c)
+  - Double Linked Lists
+    - [Code](./class-codes/double-rev.c)
 
-## Program to create a link list and give options to insert data at the beginning, at any position or at the end - NORMAL [Link list insertions](./class-codes/link-list-with-3-ins.c)
+- **P15. Linear Queue Operations**
+  
+  - Insertion, Deletion, Peek, and Display
+    - [Code](./class-codes/queue-ins-del.c)
+  
+- **P16. Circular Queue Operations**
+  
+  - Insertion, Deletion, Search, and Display
+    - [Code](./class-codes/queue-ins-del-circular.c)
 
-## Program to create a link list and give options to insert data at the beginning, at any position or at the end. Accept the data in the main part of the program - HARD [Link list insertions with options](./class-codes/link-list-with-3-ins-hard.c)
+## Class Codes
 
-## Program to create a link list and display the elements in the list [Create and Display](./class-codes/inserndisplay.c)
+- **Search a Character in an Array**
 
-## Program for creation of link list and display the number of nodes created [Create and count Nodes](./class-codes/createnCountnode.c)
+  - [Code](./class-codes/searchChar.c)
 
-## Program for creation of double-link-list and insert at the beginning, at the end, at any position and delete at beginning [Double LL](./class-codes/double-all.c)
+- **Swap Two Values without Using a Third Variable**
 
-## Program to print the double-link-list in the reversed order [Reverse Double](./class-codes/double-rev.c)
+  - [Code](./class-codes/swapnoVar.c)
 
-## Program to implement insertion, deletion and display in Queue [Queue Implement](./class-codes/queue-ins-del.c)
+- **Bubble Sort**
 
-## Program to implement Linked Queue using dynamic memory allocation [Linked Queue](./class-codes/linkedQueue.c)
+  - [Code](./class-codes/bubSort.c)
 
-_________________________________________________________________________
+- **Insertion Sort**
 
-### TEST Codes
+  - [Code](./class-codes/insertionSort.c)
 
-## TEST 1 - 1 - Program to insert the fibonacci series in the array and find for repetition or check if the number 11 is in the array or not [Check](./test-codes/1-check.c)
+- **Sort an Array in Ascending Order**
 
-## TEST 1 - 2 - Program to take a number and store the multiples of that as array and check if divisible by 7 [Check](./test-codes/1-check1.c)
+  - With Exchanges and Comparisons Count
+    - [Code](./class-codes/sortnprintstep.c)
 
-## TEST 1 - 3 - Program to take 10 inputs and multiply by index and check for repetition [Check 2](./test-codes/1-check2.c)
+- **Link List Operations**
+  - Insertion at the Beginning, End, or Any Position
+    - [Code](./class-codes/link_list_switch.c)
+  - Options for Insertion
+    - [Code](./class-codes/link-list-with-3-ins.c)
+  - Options for Insertion with Data Acceptance
+    - [Code](./class-codes/link-list-with-3-ins-hard.c)
+  - Displaying Elements
+    - [Code](./class-codes/inserndisplay.c)
+  - Counting Nodes
+    - [Code](./class-codes/createnCountnode.c)
+  - Double Linked List Operations
+    - [Code](./class-codes/double-all.c)
+  - Printing Double Linked Lists in Reverse
+    - [Code](./class-codes/double-rev.c)
+  
+- **Queue Operations**
+  - Insertion, Deletion, and Display
+    - [Code](./class-codes/queue-ins-del.c)
+  - Linked Queue Using Dynamic Memory Allocation
+    - [Code](./class-codes/linkedQueue.c)
 
-## TEST 1 - 4 - Program to insert 10 elements in an array, if index  5 is even find factorial. If odd, just multiply by 11 [Check 3](./test-codes/1-check3.c)
+## Test Codes
 
-## TEST 2 - 1 - Program to create a link list with the details - struct student, int roll no, char grade and display the roll numbers which have grade B [Link List of Student](./test-codes/2-student-link-list.c)
+- **Test 1 - 1 - Fibonacci Series and Repetition Check**
 
-## TEST 2 - 2 - Program to create a link list and insert elements at the beginning and at any position [Link List Insertion](./test-codes/2-link-list-insertion.c)
+  - [Code](./test-codes/1-check.c)
 
-## Class Test 2 - 1 [class-test-2-01](./test-codes/class-test-2-1.c)
+- **Test 1 - 2 - Multiples of a Number**
 
-## Class Test 2 - 2 [class-test-2-02](./test-codes/class-test-2-2.c)
+  - [Code](./test-codes/1-check1.c)
 
-## TEST 3 - 3 - Program to implement Ticket Recording using circular queue [Ticket Circular Queue](./test-codes/prac-test-3.c)
+- **Test 1 - 3 - Index Multiplication and Repetition Check**
 
+  - [Code](./test-codes/1-check2.c)
 
-_________________________________________________________________________
+- **Test 1 - 4 - Insert and Calculate Factorial/Multiplication**
 
-### THANK YOU! HAPPY CODING 🎉🎉🎉
+  - [Code](./test-codes/1-check3.c)
+
+- **Test 2 - 1 - Student Roll Numbers with Grade B**
+
+  - [Code](./test-codes/2-student-link-list.c)
+
+- **Test 2 - 2 - Linked List Insertion**
+
+  - [Code](./test-codes/2-link-list-insertion.c)
+
+- **Class Test 2 - 1**
+
+  - [Code](./test-codes/class-test-2-1.c)
+
+- **Class Test 2 - 2**
+
+  - [Code](./test-codes/class-test-2-2.c)
+
+- **Test 3 - 3 - Ticket Recording with Circular Queue**
+  - [Code](./test-codes/prac-test-3.c)
+
+---
+
+## Thank you for visiting! Happy Coding! 🎉🎉🎉
