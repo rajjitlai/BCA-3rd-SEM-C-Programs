@@ -74,22 +74,31 @@ _________________________________________________________________________
 
 ## Program to implement insertion, deletion and display in Queue [Queue Implement](./class-codes/queue-ins-del.c)
 
+## Program to implement Linked Queue using dynamic memory allocation [Linked Queue](./class-codes/linkedQueue.c)
+
 _________________________________________________________________________
 
 ### TEST Codes
 
-## TEST 1 - Program to insert the fibonacci series in the array and find for repetition or check if the number 11 is in the array or not [Check](./test-codes/1-check.c)
+## TEST 1 - 1 - Program to insert the fibonacci series in the array and find for repetition or check if the number 11 is in the array or not [Check](./test-codes/1-check.c)
 
-## TEST 1 - Program to take a number and store the multiples of that as array and check if divisible by 7 [Check](./test-codes/1-check1.c)
+## TEST 1 - 2 - Program to take a number and store the multiples of that as array and check if divisible by 7 [Check](./test-codes/1-check1.c)
 
-## TEST 1 - Program to take 10 inputs and multiply by index and check for repetition [Check 2](./test-codes/1-check2.c)
+## TEST 1 - 3 - Program to take 10 inputs and multiply by index and check for repetition [Check 2](./test-codes/1-check2.c)
 
-## TEST 1 - Program to insert 10 elements in an array, if index  5 is even find factorial. If odd, just multiply by 11 [Check 3](./test-codes/1-check3.c)
+## TEST 1 - 4 - Program to insert 10 elements in an array, if index  5 is even find factorial. If odd, just multiply by 11 [Check 3](./test-codes/1-check3.c)
 
-## TEST 2 - Program to create a link list with the details - struct student, int roll no, char grade and display the roll numbers which have grade B [Link List of Student](./test-codes/2-student-link-list.c)
+## TEST 2 - 1 - Program to create a link list with the details - struct student, int roll no, char grade and display the roll numbers which have grade B [Link List of Student](./test-codes/2-student-link-list.c)
 
-## TEST 2 - Program to create a link list and insert elements at the beginning and at any position [Link List Insertion](./test-codes/2-link-list-insertion.c)
+## TEST 2 - 2 - Program to create a link list and insert elements at the beginning and at any position [Link List Insertion](./test-codes/2-link-list-insertion.c)
 
 ## Class Test 2 - 1 [class-test-2-01](./test-codes/class-test-2-1.c)
 
 ## Class Test 2 - 2 [class-test-2-02](./test-codes/class-test-2-2.c)
+
+## TEST 3 - 3 - Program to implement Ticket Recording using circular queue [Ticket Circular Queue](./test-codes/prac-test-3.c)
+
+
+_________________________________________________________________________
+
+### THANK YOU! HAPPY CODING 🎉🎉🎉
