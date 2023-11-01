@@ -13,10 +13,8 @@ void recordTicket(int arr[], int n) {
             rear = front = -1;
             ticketsTaken = 0;
             printf("Starting over...\n");
-            return;
         } else {
             printf("Exiting...\n");
-            return;
         }
     }
 
@@ -24,7 +22,6 @@ void recordTicket(int arr[], int n) {
         rear = front = 0;
     } else if (front == (rear + 1) % n) {
         printf("All the tickets are taken. Please come back later...\n");
-        return;
     } else {
         rear = (rear + 1) % n;
     }
