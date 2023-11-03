@@ -103,6 +103,11 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
   - Insertion, Deletion, Search, and Display
     - [Code](./class-codes/queue-ins-del-circular.c)
 
+- **P17. Linked Queue Operations**
+
+  - Insertion, Deletion, Display and Peek using array or static memory allocation
+    - [Code](./class-codes/linkedQueue.c)
+
 ## Class Codes
 
 - **Search a Character in an Array**
