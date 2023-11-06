@@ -153,6 +153,10 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
   - Linked Queue Using Dynamic Memory Allocation
     - [Code](./class-codes/linkedQueue.c)
 
+- **Priority Queue**
+  - Program to illustrate Priority Queue
+    - [Code](./class-codes/priority-queue.c)
+
 ## Test Codes
 
 - **Test 1 - 1 - Fibonacci Series and Repetition Check**
