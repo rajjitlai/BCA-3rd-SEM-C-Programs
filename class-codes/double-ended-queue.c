@@ -1,4 +1,4 @@
-// Program to implement Rear Enueue in Double Ended Queue
+// Program to implement Rear Enqueue in Double Ended Queue
 #include<stdio.h>
 int rear = -1;
 int front = -1;
@@ -39,31 +39,47 @@ void enqueueFront(int arr[], int n) {
 	}
 }
 
-void displayList(int arr[], int n) {
-	if((front == -1) && (rear == -1)) {
-		printf("Queue is empty");
-	} else {
-		int i = front;
-		printf("\nThe list is: ");
-		while(i != rear) {
-			printf(" %d |", arr[i]);
-			i = (i + 1)%n;
-		}
-		printf("%d |", arr[rear]);
-	}
-}
-
 void dequeueFront(int arr[], int n)	{
 	if((front == -1) && (rear == -1)) {
 		printf("Queue is empty");
 	} else if(front==rear) {
 		printf("\nThe deleted item is: %d", arr[front]);
-	} else if(front==0) {
+		front = rear = -1;
+	} else if(front==n-1) {
 		printf("\nThe deleted item is: %d", arr[front]);
-		front = n - 1;
+		front = 0;
 	} else {
 		printf("\nThe deleted item is: %d", arr[front]);
 		front++;
+	}
+}
+
+void dequeueRear(int arr[], int n){
+	if((front == -1) && (rear == -1)) {
+		printf("Queue is empty");
+	} else if(front==rear) {
+		printf("\nThe deleted item is: %d", arr[rear]);
+		front = rear = -1;
+	} else if(rear==0) {
+		printf("\nThe deleted item is: %d", arr[rear]);
+		rear=n-2;
+	} else {
+		printf("\nThe deleted item is: %d", arr[rear]);
+		rear--;
+	}
+}
+
+void displayList(int arr[], int n) {
+	if((front == -1) && (rear == -1)) {
+		printf("Queue is empty");
+	} else {
+		int i = front;
+		printf("\nThe list is: \n|");
+		while(i != rear) {
+			printf(" %d |", arr[i]);
+			i = (i + 1)%n;
+		}
+		printf("%d |", arr[rear]);
 	}
 }
 
@@ -85,8 +101,33 @@ int main(){
 	printf("Before deletion: ");
 	displayList(arr, n);
 	dequeueFront(arr, n);
-	printf("\nAfter deletion: ");
+	printf("\nAfter deletion from front: ");
+	displayList(arr, n);
+	dequeueRear(arr, n);
+	printf("\nAfter deletion from rear: ");
 	displayList(arr, n);
 	
 	return 0;
 }
+
+
+// Output
+/*
+Enter the number of data: 5
+Enter the data: 1
+Enter the data: 2
+Enter the data: 3
+Enter the data: 4
+Enter the data: 5
+Before deletion:
+The list is:
+| 5 | 4 | 1 | 2 |3 |
+The deleted item is: 5
+After deletion from front:
+The list is:
+| 4 | 1 | 2 |3 |
+The deleted item is: 3
+After deletion from rear:
+The list is:
+| 4 | 1 |2 |
+*/
