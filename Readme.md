@@ -192,7 +192,16 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
   - [Code](./test-codes/class-test-2-2.c)
 
 - **Test 3 - 3 - Ticket Recording with Circular Queue**
+  
   - [Code](./test-codes/prac-test-3.c)
+
+- **Class Test 3 - 1 - Program to implement circular queue operations**
+  
+  - [Code](./class-codes/queue-ins-del-circular.c)
+  
+- **Class Test 3 - 2 - Program to implement deque (deck) using Linked List**
+
+  - [Code](./test-codes/deque-linked.c)
 
 ---
 
