@@ -108,6 +108,13 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
   - Insertion, Deletion, Display and Peek using array or static memory allocation
     - [Code](./class-codes/linkedQueue.c)
 
+- **P18. Stack Implementation**
+
+  - (i) Push, Pop, Display using array
+    - [Code](./class-codes/stack.c)
+  - (ii) Push, Pop, Display using dynamic memory allocation
+    - [Code](./practical-codes/stack-dynamic.c)
+
 ## Class Codes
 
 - **Search a Character in an Array**
