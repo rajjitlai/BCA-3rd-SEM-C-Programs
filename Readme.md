@@ -121,6 +121,20 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
     - [Code](./practical-codes/recFac.c)
   - (ii) Using Iteration
     - [Code](./practical-codes/itFac.c)
+  
+- **P20. Fibonacci series of a number**
+
+  - (i) Using Recursion
+    - [Code](./practical-codes/recFibo.c)
+  - (ii) Using Iteration
+    - [Code](./practical-codes/itFibo.c)
+
+- **P21. Greatest Common Divisor of a number**
+
+  - (i) Using Recursion
+    - [Code](./practical-codes/recGCD.c)
+  - (ii) Using Iteration
+    - [Code](./practical-codes/itGCD.c)
 
 ## Class Codes
 
