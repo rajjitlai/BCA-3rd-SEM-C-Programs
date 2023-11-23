@@ -105,7 +105,7 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
 
 - **P17. Linked Queue Operations**
 
-  - Insertion, Deletion, Display and Peek using array or static memory allocation
+  - Insertion, Deletion, Display and Peek using dynamic memory allocation
     - [Code](./class-codes/linkedQueue.c)
 
 - **P18. Stack Implementation**
@@ -114,6 +114,13 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
     - [Code](./class-codes/stack.c)
   - (ii) Push, Pop, Display using dynamic memory allocation
     - [Code](./practical-codes/stack-dynamic.c)
+
+- **P19. Factorial of a number and its factors**
+
+  - (i) Using Recursion
+    - [Code](./practical-codes/recFac.c)
+  - (ii) Using Iteration
+    - [Code](./practical-codes/itFac.c)
 
 ## Class Codes
 
