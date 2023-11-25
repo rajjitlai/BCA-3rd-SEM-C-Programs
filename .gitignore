@@ -1,3 +1,4 @@
 *.exe
 /image
 .idea
+.vscode
