@@ -1,4 +1,4 @@
-// Program to illustrate double link list - insertion
+// Program to illustrate double link list - reverse
 #include <stdio.h>
 #include <stdlib.h>
 
