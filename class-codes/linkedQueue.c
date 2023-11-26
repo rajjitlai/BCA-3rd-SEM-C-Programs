@@ -1,4 +1,4 @@
-// Program to implement Linked Queue usig dynamic memory allocation
+// Program to implement Linked Queue using dynamic memory allocation
 
 #include<stdio.h>
 #include<stdlib.h>
