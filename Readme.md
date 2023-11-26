@@ -135,6 +135,9 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
     - [Code](./practical-codes/recGCD.c)
   - (ii) Using Iteration
     - [Code](./practical-codes/itGCD.c)
+
+- **P22. Implement Queue using multiple stack**
+  - [Code](./practical-codes/queue-multiple-stack.c)
   
 - **P23. Implement reverse of stack using another stack**
   - [Code](./practical-codes/reverse-stack.c)
