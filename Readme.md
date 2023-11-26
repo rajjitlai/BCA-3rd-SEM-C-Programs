@@ -122,7 +122,7 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
   - (ii) Using Iteration
     - [Code](./practical-codes/itFac.c)
   
-- **P20. Fibonacci series of a number**
+- **P20. Printing Fibonacci series**
 
   - (i) Using Recursion
     - [Code](./practical-codes/recFibo.c)
