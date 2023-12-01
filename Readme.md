@@ -139,6 +139,10 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
 - **P23. Implement reverse of stack using another stack**
   - [Code](./practical-codes/reverse-stack.c)
 
+- **P24. Program to implement binary tree displaying Preorder, Inorder and Postorder notations**
+  - [Code](./practical-codes/binary-tree.c)
+  
+
 ## Class Codes
 
 - **Search a Character in an Array**
