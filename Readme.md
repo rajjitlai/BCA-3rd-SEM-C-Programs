@@ -144,6 +144,9 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
 
 - **P24. Program to implement binary tree displaying Preorder, Inorder and Postorder notations**
   - [Code](./practical-codes/binary-tree.c)
+
+- **P25. Program to implement binary search tree (BST) displaying Preorder, Inorder and Postorder notations - with insertion, deletion, searching**
+  - [Code](./practical-codes/BST.c)
   
 
 ## Class Codes
