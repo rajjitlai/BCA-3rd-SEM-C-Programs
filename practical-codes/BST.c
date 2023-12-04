@@ -89,8 +89,9 @@ struct node *deleteNode(struct node *root, int d) {
 			root->data = temp->data;
 			root->left=deleteNode(root, temp->data);
 		}
+		return root;
 	}
-	return root;
+	
 }
 
 int main() {
