@@ -80,7 +80,7 @@ Enter 0 to exit: 1
 Enter 1 to enter only left child 
 2 to enter only right child 
 Others to enter both 
-Your option -> 33
+Your option -> 3
 Enter data: 2
 Enter 0 to exit: 1
 Enter 1 to enter only left child 
