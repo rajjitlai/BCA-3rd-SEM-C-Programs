@@ -117,7 +117,7 @@ int main() {
 	int srNum;
 	struct node *srItem;
 	printf("\n\n\tSearching part\n");
-	printf("\nEnter the data for which you want to searh: ");
+	printf("\nEnter the data for which you want to search: ");
 	scanf("%d", &srNum);
 	srItem = search(root, srNum);
 	if(srItem != NULL) {
