@@ -180,3 +180,39 @@ int main()
 
     return 0;
 }
+
+
+// Output
+/*
+Enter the number of items: 5
+Enter the data: 30
+Enter the data: 20
+Enter the data: 10
+Enter the data: 25
+Enter the data: 23
+
+before deletion:
+Preorder:
+30 | 20 | 10 | 25 | 23 |
+Inorder:
+10 | 20 | 23 | 25 | 30 |
+Postoder:
+10 | 23 | 25 | 20 | 30 |
+
+        Searching part
+
+Enter the data for which you want to searh: 45
+Element not found in the tree
+
+        Deletion part
+
+Enter the data for which you want to delete: 10
+
+After deletion:
+Preorder:
+30 | 20 | 25 | 23 |
+Inorder:
+20 | 23 | 25 | 30 |
+Postoder:
+23 | 25 | 20 | 30 |
+*/
