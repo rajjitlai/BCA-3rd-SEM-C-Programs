@@ -148,6 +148,9 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
 - **P25. Program to implement binary search tree (BST) displaying Preorder, Inorder and Postorder notations - with insertion, deletion, searching**
   - [Code](./practical-codes/BST.c)
 
+- **P26. Program to implement AVL tree**
+  - [Code](./practical-codes/AVL.c)
+
 - **P27. Program to implement Heap Tree (Binary) -  Max Heap**
   - [Code](./practical-codes/heap-tree.c)
   
