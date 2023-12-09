@@ -45,3 +45,16 @@ int main()
 
     return 0;
 }
+
+/*
+Output:
+
+Enter the size of the square matrix: 3
+Enter 6 elements of the one-dimensional array:
+1 2 3 4 5 6
+The lower triangular matrix is:
+1	0	0	
+2	3	0	
+4	5	6
+
+*/
