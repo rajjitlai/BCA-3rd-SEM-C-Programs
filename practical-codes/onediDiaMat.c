@@ -43,3 +43,18 @@ int main()
 
 	return 0;
 }
+
+/*
+Output:
+
+Enter the number of elements: 5
+Enter the elements of the array: 1 2 3 4 5
+The array is: 1 2 3 4 5 
+The array in the diagonal matrix is: 
+1	0	0	0	0	
+0	2	0	0	0	
+0	0	3	0	0	
+0	0	0	4	0	
+0	0	0	0	5	
+
+*/
