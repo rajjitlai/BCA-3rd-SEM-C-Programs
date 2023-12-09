@@ -143,3 +143,106 @@ int main(){
 	}
 	return 0;
 }
+/*
+Output:
+	
+Enter the number of elements: 7
+Enter the elements: 1
+Enter the elements: 2
+Enter the elements: 3
+Enter the elements: 4
+Enter the elements: 5
+Enter the elements: 6
+Enter the elements: 7
+The linked list is: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 
+
+Choose an option:
+1. Deletion from the beginning 
+2. Deletion from the end
+3. Deletion from any position 
+4. Search an element and delete it 
+5. Display the updated linked list 
+6. Exit the program
+Option: 1
+Choose an option:
+1. Deletion from the beginning 
+2. Deletion from the end
+3. Deletion from any position 
+4. Search an element and delete it 
+5. Display the updated linked list 
+6. Exit the program
+Option: 5
+The updated linked list is: 2 | 3 | 4 | 5 | 6 | 7 | 
+
+Choose an option:
+1. Deletion from the beginning 
+2. Deletion from the end
+3. Deletion from any position 
+4. Search an element and delete it 
+5. Display the updated linked list 
+6. Exit the program
+Option: 2
+Choose an option:
+1. Deletion from the beginning 
+2. Deletion from the end
+3. Deletion from any position 
+4. Search an element and delete it 
+5. Display the updated linked list 
+6. Exit the program
+Option: 5
+The updated linked list is: 2 | 3 | 4 | 5 | 6 | 
+
+Choose an option:
+1. Deletion from the beginning 
+2. Deletion from the end
+3. Deletion from any position 
+4. Search an element and delete it 
+5. Display the updated linked list 
+6. Exit the program
+Option: 3
+Enter the position of element item to be deleted: 3
+Item deleted successfully...
+
+Choose an option:
+1. Deletion from the beginning 
+2. Deletion from the end
+3. Deletion from any position 
+4. Search an element and delete it 
+5. Display the updated linked list 
+6. Exit the program
+Option: 5
+The updated linked list is: 2 | 3 | 5 | 6 | 
+
+Choose an option:
+1. Deletion from the beginning 
+2. Deletion from the end
+3. Deletion from any position 
+4. Search an element and delete it 
+5. Display the updated linked list 
+6. Exit the program
+Option: 4
+Enter the element to be searched: 5
+Element found...
+Element 5 deleted successfully from position 3
+
+Choose an option:
+1. Deletion from the beginning 
+2. Deletion from the end
+3. Deletion from any position 
+4. Search an element and delete it 
+5. Display the updated linked list 
+6. Exit the program
+Option: 5
+The updated linked list is: 2 | 3 | 6 | 
+
+Choose an option:
+1. Deletion from the beginning 
+2. Deletion from the end
+3. Deletion from any position 
+4. Search an element and delete it 
+5. Display the updated linked list 
+6. Exit the program
+Option: 6
+Exitting the program...
+
+*/
