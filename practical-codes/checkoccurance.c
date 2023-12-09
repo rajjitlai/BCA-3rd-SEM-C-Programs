@@ -26,3 +26,12 @@ int main()
 		printf("There is no occurrence of %d in the given array", X);
 	return 0;
 }
+
+/*
+Output:
+Enter the number of elements: 5
+Enter the elements of the array: 12 32 11 12 12
+Enter the element to be checked: 12
+The occurrence of 12 is 3
+
+*/
