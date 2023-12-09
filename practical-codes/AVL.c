@@ -3,218 +3,218 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Structure for a node
 struct node
 {
     int data;
+    //	char data[20];
     struct node *left;
     struct node *right;
-    int height;
 };
 
-int max(int a, int b)
+// creation
+struct node *create(int num)
 {
-    return (a > b) ? a : b;
+    struct node *newNode = (struct node *)malloc(sizeof(struct node));
+    newNode->data = num;
+    newNode->left = NULL;
+    newNode->right = NULL;
+    return newNode;
 }
 
-int height(struct node *root)
+// searching and checking
+struct node *search(struct node *root, int key)
 {
-    if (root == NULL)
+    if (root == NULL || root->data == key)
     {
-        return 0;
+        return root;
     }
-    return root->height;
-}
-
-struct node *CreateNode(int num)
-{
-    struct node *newnode = (struct node *)malloc(sizeof(struct node));
-    newnode->data = num;
-    newnode->left = NULL;
-    newnode->right = NULL;
-    newnode->height = 1; // Initialize height to 1
-    return newnode;
-}
-
-int Balancedfactor(struct node *root)
-{
-    if (root == NULL)
+    else if (key < root->data)
     {
-        return 0;
-    }
-    return height(root->left) - height(root->right);
-}
-
-// RR
-struct node *rightRotate(struct node *y)
-{
-    struct node *x = y->left;
-    struct node *T2 = x->right;
-
-    // Perform rotation
-    x->right = y;
-    y->left = T2;
-
-    // Update heights
-    y->height = max(height(y->left), height(y->right)) + 1;
-    x->height = max(height(x->left), height(x->right)) + 1;
-
-    // Return new root
-    return x;
-}
-
-// LR
-struct node *leftRotate(struct node *x)
-{
-    struct node *y = x->right;
-    struct node *T2 = y->left;
-
-    // Perform rotation
-    y->left = x;
-    x->right = T2;
-
-    // Update heights
-    x->height = max(height(x->left), height(x->right)) + 1;
-    y->height = max(height(y->left), height(y->right)) + 1;
-
-    // Return new root
-    return y;
-}
-
-// Insertion
-struct node *insert(struct node *node, int key)
-{
-    // Perform standard BST insertion
-    if (node == NULL)
-    {
-        return CreateNode(key);
-    }
-
-    if (key < node->data)
-    {
-        node->left = insert(node->left, key);
-    }
-    else if (key > node->data)
-    {
-        node->right = insert(node->right, key);
+        search(root->left, key);
     }
     else
     {
-        // Duplicate keys are not allowed
-        return node;
+        search(root->right, key);
     }
-
-    // Update height of current node
-    node->height = 1 + max(height(node->left), height(node->right));
-
-    // Get the balance factor
-    int balance = Balancedfactor(node);
-
-    // Left Left Case
-    if (balance > 1 && key < node->left->data)
-    {
-        return rightRotate(node);
-    }
-
-    // Right Right Case
-    if (balance < -1 && key > node->right->data)
-    {
-        return leftRotate(node);
-    }
-
-    // Left Right Case
-    if (balance > 1 && key > node->left->data)
-    {
-        node->left = leftRotate(node->left);
-        return rightRotate(node);
-    }
-
-    // Right Left Case
-    if (balance < -1 && key < node->right->data)
-    {
-        node->right = rightRotate(node->right);
-        return leftRotate(node);
-    }
-
-    // No rotation needed
-    return node;
 }
 
-// Function to print the preorder traversal of the tree
-void preorderTraversal(struct node *root)
+// insertion
+struct node *insert(struct node *root, int num)
+{
+    if (root == NULL)
+    {
+        return create(num);
+    }
+    else if (num < root->data)
+        root->left = insert(root->left, num);
+    else
+        root->right = insert(root->right, num);
+    return root;
+}
+
+// traversal
+void preorder(struct node *root)
 {
     if (root != NULL)
     {
-        printf("%d|", root->data);
-        preorderTraversal(root->left);
-        preorderTraversal(root->right);
+        printf("%d | ", root->data);
+        preorder(root->left);
+        preorder(root->right);
     }
 }
 
-// Function to print the inorder traversal of the tree
-void inorderTraversal(struct node *root)
+void inorder(struct node *root)
 {
     if (root != NULL)
     {
-        inorderTraversal(root->left);
-        printf("%d|", root->data);
-        inorderTraversal(root->right);
+        inorder(root->left);
+        printf("%d | ", root->data);
+        inorder(root->right);
     }
 }
 
-// Function to print the postorder traversal of the tree
-void postorderTraversal(struct node *root)
+void postorder(struct node *root)
 {
     if (root != NULL)
     {
-        postorderTraversal(root->left);
-        postorderTraversal(root->right);
-        printf("%d|", root->data);
+        postorder(root->left);
+        postorder(root->right);
+        printf("%d | ", root->data);
     }
 }
 
-// Main function of the AVL tree
+// inorder predecessor
+struct node *inorderPre(struct node *root)
+{
+    if (root == NULL || root->left == NULL)
+    {
+        return NULL;
+    }
+    root = root->left;
+    while (root->right != NULL)
+        root = root->right;
+    return root;
+}
+
+// deletion
+struct node *deleteNode(struct node *root, int d)
+{
+    if (root == NULL)
+    {
+        return NULL;
+    }
+    if (root->data > d)
+        root->left = deleteNode(root->left, d);
+    else if (root->data < d)
+        root->right = deleteNode(root->right, d);
+    else
+    {
+        if (root->left == NULL)
+        {
+            struct node *temp = root->right;
+            free(root);
+            return temp;
+        }
+        else if (root->right == NULL)
+        {
+            struct node *temp = root->left;
+            free(root);
+            return temp;
+        }
+
+        struct node *temp = inorderPre(root);
+        root->data = temp->data;
+        root->left = deleteNode(root->left, temp->data);
+    }
+    return root;
+}
+
 int main()
 {
     struct node *root = NULL;
-    int n, i, num;
-    printf("Enter no of data:");
+    int n, num;
+    // insertion
+    printf("Enter the number of items: ");
     scanf("%d", &n);
-    for (i = 1; i <= n; i++)
+    for (int i = 1; i <= n; i++)
     {
-        printf("Enter data:");
+        printf("Enter the data: ");
         scanf("%d", &num);
         root = insert(root, num);
     }
-    // Print the preorder traversal of the AVL tree
-    printf("Preorder traversal of the AVL tree: ");
-    preorderTraversal(root);
-
-    // Print the inorder traversal of the AVL tree
-    printf("\nInorder traversal of the AVL tree: ");
-    inorderTraversal(root);
-
-    // Print the postorder traversal of the AVl tree
-    printf("\nPostorder traversal of the AVL tree: ");
-    postorderTraversal(root);
+    // Traversal
+    printf("\nbefore deletion:\n");
+    printf("Preorder:\n");
+    preorder(root);
+    printf("\nInorder:\n");
+    inorder(root);
+    printf("\nPostoder:\n");
+    postorder(root);
+    // Searching
+    int srNum;
+    struct node *srItem;
+    printf("\n\n\tSearching part\n");
+    printf("\nEnter the data for which you want to search: ");
+    scanf("%d", &srNum);
+    srItem = search(root, srNum);
+    if (srItem != NULL)
+    {
+        printf("Element found");
+    }
+    else
+    {
+        printf("Element not found in the tree");
+    }
+    // Deletion
+    int delNum;
+    printf("\n\n\tDeletion part\n");
+    printf("\nEnter the data for which you want to delete: ");
+    scanf("%d", &delNum);
+    root = deleteNode(root, delNum);
+    // Traversal
+    printf("\nAfter deletion:\n");
+    printf("Preorder:\n");
+    preorder(root);
+    printf("\nInorder:\n");
+    inorder(root);
+    printf("\nPostoder:\n");
+    postorder(root);
 
     return 0;
 }
+
+
+// Output
 /*
-Output:
+Enter the number of items: 5
+Enter the data: 30
+Enter the data: 20
+Enter the data: 10
+Enter the data: 25
+Enter the data: 23
 
-Enter no of data:9
-Enter data:3
-Enter data:5
-Enter data:11
-Enter data:8
-Enter data:4
-Enter data:1
-Enter data:12
-Enter data:7
-Enter data:2
-Preorder traversal of the AVL tree: 5|3|1|2|4|11|8|7|12|
-Inorder traversal of the AVL tree: 1|2|3|4|5|7|8|11|12|
-Postorder traversal of the AVL tree: 2|1|4|3|7|8|12|11|5|
+before deletion:
+Preorder:
+30 | 20 | 10 | 25 | 23 |
+Inorder:
+10 | 20 | 23 | 25 | 30 |
+Postoder:
+10 | 23 | 25 | 20 | 30 |
 
-  */
+        Searching part
+
+Enter the data for which you want to searh: 45
+Element not found in the tree
+
+        Deletion part
+
+Enter the data for which you want to delete: 10
+
+After deletion:
+Preorder:
+30 | 20 | 25 | 23 |
+Inorder:
+20 | 23 | 25 | 30 |
+Postoder:
+23 | 25 | 20 | 30 |
+*/
