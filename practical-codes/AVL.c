@@ -12,6 +12,7 @@ struct node
     int height;
 };
 
+// #define max(a,b) (((a) > (b)) ? (a) : (b));
 int max(int a, int b)
 {
     return (a > b) ? a : b;
@@ -264,8 +265,8 @@ int main()
     {
         printf("Element not found in the tree");
     }
- // Traversal
-    printf("\nBefore deletion:\n");
+    // Traversal
+    printf("\n\nBefore deletion:\n");
     printf("Preorder:\n");
     preorderTraversal(root);
     printf("\nInorder:\n");
@@ -274,11 +275,11 @@ int main()
     postorderTraversal(root);
     // Deletion
     int delNum;
-    printf("\nDeletion part\n");
+    printf("\n\nDeletion part\n");
     printf("\nEnter the data for which you want to delete: ");
     scanf("%d", &delNum);
     root = deleteNode(root, delNum);
-    
+
     // Traversal
     printf("\nAfter deletion:\n");
     printf("Preorder:\n");
@@ -290,7 +291,7 @@ int main()
 
     return 0;
 }
-/* 
+/*
 Output:
 
 Enter no of data:4
