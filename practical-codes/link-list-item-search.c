@@ -71,3 +71,16 @@ int main(){
 	searchElement(&head, item);
 	return 0;
 }
+/*
+Output:
+
+Enter the number of elements you want to insert: 5
+Enter the value for element 1: 11
+Enter the value for element 2: 23
+Enter the value for element 3: 54
+Enter the value for element 4: 298
+Enter the value for element 5: 3
+The elements in the list are: 11 | 23 | 54 | 298 | 3 | 
+Enter the element you want to search: 298
+Element 298 found at 4
+*/
