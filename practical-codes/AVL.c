@@ -186,7 +186,7 @@ int main()
         scanf("%d", &num);
         root = insert(root, num);
     }
-    // Print the preorder traversak of the AVL tree
+    // Print the preorder traversal of the AVL tree
     printf("Preorder traversal of the AVL tree: ");
     preorderTraversal(root);
 
