@@ -203,15 +203,18 @@ int main()
 /*
 Output:
 
-Enter no of data:6
-Enter data:55
-Enter data:25
-Enter data:65
-Enter data:9
+Enter no of data:9
+Enter data:3
+Enter data:5
+Enter data:11
 Enter data:8
-Enter data:15
-Preorder traversal of the AVL tree: 25|9|8|15|55|65|  
-Inorder traversal of the AVL tree: 8|9|15|25|55|65|  
-Postorder traversal of the AVL tree: 8|15|9|65|55|25|
+Enter data:4
+Enter data:1
+Enter data:12
+Enter data:7
+Enter data:2
+Preorder traversal of the AVL tree: 5|3|1|2|4|11|8|7|12|
+Inorder traversal of the AVL tree: 1|2|3|4|5|7|8|11|12|
+Postorder traversal of the AVL tree: 2|1|4|3|7|8|12|11|5|
 
   */
