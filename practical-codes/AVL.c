@@ -187,7 +187,7 @@ int main()
         root = insert(root, num);
     }
     // Print the preorder traversak of the AVL tree
-    printf("Inorder traversal of the AVL tree: ");
+    printf("Preorder traversal of the AVL tree: ");
     preorderTraversal(root);
 
     // Print the inorder traversal of the AVL tree
@@ -210,7 +210,7 @@ Enter data:65
 Enter data:9
 Enter data:8
 Enter data:15
-Inorder traversal of the AVL tree: 25|9|8|15|55|65|  
+Preorder traversal of the AVL tree: 25|9|8|15|55|65|  
 Inorder traversal of the AVL tree: 8|9|15|25|55|65|  
 Postorder traversal of the AVL tree: 8|15|9|65|55|25|
 
