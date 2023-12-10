@@ -65,3 +65,21 @@ int main(){
 	return 0;
 }
 
+/*
+Output:
+/tmp/7HR36M9fIN.o
+Enter the number of list for 1st node: 3
+Enter the element 1: 1
+Enter the element 2: 2
+Enter the element 3: 3
+The default list for 1st node is:  1 | 2 | 3 |
+
+Enter the number of list for 2nd node: 3
+Enter the element 1: 4
+Enter the element 2: 5
+Enter the element 3: 6
+The default list for 2nd node is:  4 | 5 | 6 |
+
+The list after concatenation is: 
+ 1 | 2 | 3 | 4 | 5 | 6 |
+*/
