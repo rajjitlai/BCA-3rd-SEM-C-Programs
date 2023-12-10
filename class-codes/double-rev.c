@@ -68,3 +68,13 @@ int main() {
     printrevValue(head);
     return 0;
 }
+/*
+Output:
+Enter data: 1
+2
+3
+4
+5
+The linked list is: 5 | 4 | 3 | 2 | 1 | 
+The linked list in reversed form: 1 | 2 | 3 | 4 | 5 | 
+*/
