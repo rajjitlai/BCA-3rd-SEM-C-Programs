@@ -1,6 +1,6 @@
 # Data Structures Using C Programming
 
-Welcome to the repository for Data Structures using C programming. Here, you will find practical, class, and test codes that will help you learn and practice data structures - by [Rajjit Laishram](https://mypersonalportfolio-rl.netlify.app/)
+Welcome to the repository for Data Structures using C programming. Here, you will find practical, class, and test codes that will help you learn and practice data structures - by [Rajjit Laishram](https://mypersonalportfolio-rl.netlify.app/) and [Oinam Akash Khuman](https://github.com/AkashOinam)
 
 ---
 
