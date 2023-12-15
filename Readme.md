@@ -155,25 +155,22 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
   - [Code](./practical-codes/heap-tree.c)
   
 ## Class Codes
+- **Searching an element in an array using Binary Search**
+  - [Code](./class-codes/binarySearch.c)
 
 - **Search a Character in an Array**
-
   - [Code](./class-codes/searchChar.c)
 
 - **Swap Two Values without Using a Third Variable**
-
   - [Code](./class-codes/swapnoVar.c)
 
 - **Bubble Sort**
-
   - [Code](./class-codes/bubSort.c)
 
 - **Insertion Sort**
-
   - [Code](./class-codes/insertionSort.c)
 
 - **Sort an Array in Ascending Order**
-
   - With Exchanges and Comparisons Count
     - [Code](./class-codes/sortnprintstep.c)
 
@@ -204,49 +201,37 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
     - [Code](./class-codes/priority-queue.c)
 
 ## Test Codes
-
 - **Test 1 - 1 - Fibonacci Series and Repetition Check**
-
   - [Code](./test-codes/1-check.c)
 
 - **Test 1 - 2 - Multiples of a Number**
-
   - [Code](./test-codes/1-check1.c)
 
 - **Test 1 - 3 - Index Multiplication and Repetition Check**
-
   - [Code](./test-codes/1-check2.c)
 
 - **Test 1 - 4 - Insert and Calculate Factorial/Multiplication**
-
   - [Code](./test-codes/1-check3.c)
 
 - **Test 2 - 1 - Student Roll Numbers with Grade B**
-
   - [Code](./test-codes/2-student-link-list.c)
 
 - **Test 2 - 2 - Linked List Insertion**
-
   - [Code](./test-codes/2-link-list-insertion.c)
 
 - **Class Test 2 - 1**
-
   - [Code](./test-codes/class-test-2-1.c)
 
 - **Class Test 2 - 2**
-
   - [Code](./test-codes/class-test-2-2.c)
 
 - **Test 3 - 3 - Ticket Recording with Circular Queue**
-  
   - [Code](./test-codes/prac-test-3.c)
 
 - **Class Test 3 - 1 - Program to implement circular queue operations**
-  
   - [Code](./class-codes/queue-ins-del-circular.c)
   
 - **Class Test 3 - 2 - Program to implement deque (deck) using Linked List**
-
   - [Code](./test-codes/deque-linked.c)
 
 ---
