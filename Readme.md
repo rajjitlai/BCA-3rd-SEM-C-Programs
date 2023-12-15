@@ -158,6 +158,9 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
 - **Searching an element in an array using Binary Search**
   - [Code](./class-codes/binarySearch.c)
 
+- **Searching an element in an array using Binary Search from Forward or Backward**
+  - [Code](./class-codes/binarySearchOptions.c)
+
 - **Search a Character in an Array**
   - [Code](./class-codes/searchChar.c)
 
