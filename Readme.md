@@ -4,15 +4,9 @@ Welcome to the repository for Data Structures using C programming. Here, you wil
 
 ---
 
-<div align="center">
-  <img src="https://myfilesandimagessite.netlify.app/resources/images/c-program.png" width="auto" alt="C Programming">
-</div>
+![Image](https://github.com/rajjitlai/BCA-3rd-SEM-C-Programs/blob/main/image/c-programs.jpg)
 
 ---
-
-<p align="center">
-  <img src="https://visitor-badge.feriirawann.repl.co?username=rajjitlai&repo=BCA-3rd-SEM-C-Programs&style=for-the-badge&contentType=svg&color=green&label=Visitors" alt="Visitors">
-</p>
 
 ## Practical Codes
 
